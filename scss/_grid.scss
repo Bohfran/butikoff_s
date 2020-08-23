@@ -1,0 +1,79 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.head-bg{
+    position: relative;
+    overflow: hidden;
+    height: 690px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.container-wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.backround-work{
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+@-webkit-keyframes hvr-back-pulse {
+    50% {
+      background-color: rgba(227, 97, 89, 1);
+    }
+  }
+  
+  @keyframes hvr-back-pulse {
+    50% {
+      background-color: rgba(227, 97, 89, 1);
+    }
+  }
+  
+  .hvr-back-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+  }
+  .hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+    -webkit-animation-name: hvr-back-pulse;
+    animation-name: hvr-back-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-color: #e36180;
+    background-color: #e36180;
+    color: white;
+  }
